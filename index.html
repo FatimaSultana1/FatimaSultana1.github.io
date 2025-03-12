@@ -15,6 +15,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 
 
+
+
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
@@ -47,7 +49,8 @@
 			<div class="row intro-text align-items-center justify-content-center">
 				<div class="col-md-10 text-center">
 					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Fatima Sultana</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">An AI/ML Engineer, Software Developer, Data Analyst </strong>
+					<h2><strong class="auto-type"></strong></h2>
+					
 				</div>
 			</div>
 		</div>
@@ -293,25 +296,6 @@
 				<div class="col-md-7 mb-5 mb-md-0">
 					<form action="https://formspree.io/f/mwpvgzab" class="email-form" method="POST" enctype="text/plain" > 
 						
-						<!-- <h3 class="mb-5">Get In Touch</h3>
-						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Phone">
-						</div>
-						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
-						</div>
-						
-						<div class="loading" style="display: none;">Loading...</div>
-						<div class="error-message" style="display: none;"></div>
-						<div class="sent-message" style="display: none;">Your message has been sent!</div>
-						
-						<button type="submit" class="btn btn-primary px-4 py-3">Send Message</button> -->
 						<div class="row gy-4">
 							<div class="col-md-6">
 							  <label for="name-field" class="pb-2">Your Name</label>
@@ -372,6 +356,16 @@
 			</div>
 		</div>
 	</section>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		
+		var typed = new Typed(".auto-type",{
+			strings: ["AI/ML Engineer","Software Developer","Data Analyst"],
+			typeSpeed : 150,
+			backSpeed : 150,
+			loop : true
+		});
+	</script>
 
 	<script src="js/particles.js"></script>
 
